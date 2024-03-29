@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T23:22:11 IST" name="Suite" finished-at="2024-03-28T23:23:59 IST" duration-ms="108521">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T23:22:11 IST" name="SubmitOrderTest" finished-at="2024-03-28T23:23:22 IST" duration-ms="71017">
+      <class name="Sauce_Demo.TestCases.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Sauce_Demo.TestCases.SubmitOrderTest@76f4b65]" started-at="2024-03-28T23:22:11 IST" name="launchApplication" finished-at="2024-03-28T23:22:17 IST" duration-ms="6275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Sauce_Demo.TestCases.SubmitOrderTest@76f4b65]" started-at="2024-03-28T23:22:17 IST" name="submitOrder" data-provider="getData" finished-at="2024-03-28T23:23:00 IST" duration-ms="42497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Bike Light]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sauce_Demo.TestCases.SubmitOrderTest@76f4b65]" started-at="2024-03-28T23:23:00 IST" name="tearDown" finished-at="2024-03-28T23:23:00 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Sauce_Demo.TestCases.SubmitOrderTest@76f4b65]" started-at="2024-03-28T23:23:00 IST" name="launchApplication" finished-at="2024-03-28T23:23:05 IST" duration-ms="4729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Sauce_Demo.TestCases.SubmitOrderTest@76f4b65]" started-at="2024-03-28T23:23:05 IST" name="submitOrder" data-provider="getData" finished-at="2024-03-28T23:23:22 IST" duration-ms="17074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Bike Light]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sauce_Demo.TestCases.SubmitOrderTest@76f4b65]" started-at="2024-03-28T23:23:22 IST" name="tearDown" finished-at="2024-03-28T23:23:22 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sauce_Demo.TestCases.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+    <test started-at="2024-03-28T23:23:22 IST" name="VerifyProductLabelTest" finished-at="2024-03-28T23:23:40 IST" duration-ms="17748">
+      <class name="Sauce_Demo.TestCases.VerifyProductLabel">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Sauce_Demo.TestCases.VerifyProductLabel@1b7c473a]" started-at="2024-03-28T23:23:22 IST" name="launchApplication" finished-at="2024-03-28T23:23:29 IST" duration-ms="6953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyProductLabel()[pri:0, instance:Sauce_Demo.TestCases.VerifyProductLabel@1b7c473a]" started-at="2024-03-28T23:23:29 IST" name="VerifyProductLabel" finished-at="2024-03-28T23:23:40 IST" duration-ms="10368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sauce_Demo.TestCases.VerifyProductLabel@1b7c473a]" started-at="2024-03-28T23:23:40 IST" name="tearDown" finished-at="2024-03-28T23:23:40 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sauce_Demo.TestCases.VerifyProductLabel -->
+    </test> <!-- VerifyProductLabelTest -->
+    <test started-at="2024-03-28T23:23:40 IST" name="ErrorvalidateTest" finished-at="2024-03-28T23:23:59 IST" duration-ms="19327">
+      <class name="Sauce_Demo.TestCases.Errorvalidate">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Sauce_Demo.TestCases.Errorvalidate@53de625d]" started-at="2024-03-28T23:23:40 IST" name="launchApplication" finished-at="2024-03-28T23:23:47 IST" duration-ms="7011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Errorvalidate()[pri:0, instance:Sauce_Demo.TestCases.Errorvalidate@53de625d]" started-at="2024-03-28T23:23:47 IST" name="Errorvalidate" finished-at="2024-03-28T23:23:57 IST" duration-ms="10298" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product_label']"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcabbc7972c782546d04c5b1150f5785, findElement {value=//div[@class='product_label'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61281/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcabbc7972c782546d04c5b1150f5785]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product_label']"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcabbc7972c782546d04c5b1150f5785, findElement {value=//div[@class='product_label'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61281/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcabbc7972c782546d04c5b1150f5785
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at PageObjects.Product_Catalogue.verifyproductLabel(Product_Catalogue.java:54)
+at Sauce_Demo.TestCases.Errorvalidate.Errorvalidate(Errorvalidate.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Errorvalidate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sauce_Demo.TestCases.Errorvalidate@53de625d]" started-at="2024-03-28T23:23:58 IST" name="tearDown" finished-at="2024-03-28T23:23:59 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sauce_Demo.TestCases.Errorvalidate -->
+    </test> <!-- ErrorvalidateTest -->
+  </suite> <!-- Suite -->
+</testng-results>
